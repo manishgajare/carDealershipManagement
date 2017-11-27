@@ -43,10 +43,13 @@ After we have list of vehicles associated with the points, we sort them accordin
 Separate list with 5 recommendations is sorted according to the price - which is shown to the sales person.
 
 # Scope of Expansion for future
-  - Create network
+  - Create network: 
     We can create network such as, country -> state -> city -> zipcode for managing dealerships at various locations
   
-  - Give recommendation even if "all" criterias (age/income/gender) doesn't match
+  - Create logs: 
+    We can create logs whenever anything is added to inventory or order is places
+  
+  - Give recommendation even if "all" criterias (age/income/gender) doesn't match: 
     It is possible that we do not have historic data which matches profile of potential customer. In this case we can give recommendations with relevancy score as per matches in criterias. The scores should be given to vehicles according to the below mentioned matches and in same order - since income is the most important factor when person goes to buy car.
     - income & age
     - income & gender
