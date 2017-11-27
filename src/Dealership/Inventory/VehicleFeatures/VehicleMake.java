@@ -1,0 +1,12 @@
+package Dealership.Inventory.VehicleFeatures;
+
+/**
+ * Vehicle Make
+ *
+ * Created by manishgajare
+ */
+public enum VehicleMake {
+  TOYOTA, HONDA, AUDI, BMW, PORSCHE, VOLKSWAGON, MERCEDES_BENZ, MAZDA, HYUNDAI, LEXUS,
+  CHEVROLET, CADILLAC, VOLVO, JAGUAR, DODGE, SUBARU, RENAULT, BENTLEY, CHRYSLER, FERRARI,
+  NISSAN, ASTON_MARTIN, ACURA, LAMBORGINI, KIA, SUZUKI, FIAT, JEEP, LINCOLN, LAND_ROVER
+}
