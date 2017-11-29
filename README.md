@@ -17,7 +17,7 @@ SalesPersonDirectory,
 OrderCatalog, 
 InvoiceCatalog
 
-These classes are Singleton because we do now want to create their multiple instances. We want to create their instance at the  1st call and after that same instance should be utilized throughout the application.
+These classes are Singleton because we do not want to create their multiple instances. We want to create their instance at the  1st call and after that same instance should be utilized throughout the application.
 They are made thread safe - incase there are multiple threads trying to get access at the same time, we want to let one of the thread to enter and create instance and lock the resource for the other till then, so that we do not create multiple instances.
 
 # Inventory Management
