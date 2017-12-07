@@ -98,8 +98,8 @@ public class InventoryCatalog {
     return existingItem;
   }
 
-  public void removeInventoryItem(InventoryItem inventoryItem, int Quantity) {
-    this.decrementInventoryQuantity(inventoryItem, Quantity);
+  public void removeInventoryItem(InventoryItem inventoryItem, int quantity) {
+    this.decrementInventoryQuantity(inventoryItem, quantity);
   }
 
   /**

@@ -50,7 +50,7 @@ public class Order {
    * Also change the Inventory space and Quantity as per the orderItem
    */
   protected OrderItem addOrderItem(InventoryItem inventoryItem, double price) {
-    OrderItem orderItem = new OrderItem(orderItemCountForID, inventoryItem, price);
+    OrderItem orderItem = new OrderItem(orderItemCountForID++, inventoryItem, price);
     InventoryCatalog inventoryCatalog = InventoryCatalog.getInstance();
     inventoryCatalog.removeInventoryItem(inventoryItem, 1);
     orderItemList.add(orderItem);
