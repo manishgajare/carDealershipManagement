@@ -17,7 +17,6 @@ public class Invoice {
   public Invoice(int id, Order order) {
     this.id = id;
     this.order = order;
-    this.price = price;
     for (OrderItem orderItem : order.getOrderItemList()) {
       this.price += orderItem.getPrice();
     }
