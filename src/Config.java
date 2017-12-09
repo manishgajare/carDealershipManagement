@@ -84,15 +84,13 @@ public class Config {
     SalesPerson salesPerson = salesPersonDirectory.addSalesPerson(person);
 
     vehicleList = new HashSet<Vehicle>();
-    count = 0;
     for (Vehicle v : vehicleCatalog.getVehicleList()) {
-      if (count == 0 || count == 10 || count == 15 || count == 25) {
+      if (v.getId() == 1 || v.getId() == 10 || v.getId() == 15 || v.getId() == 25) {
         vehicleList.add(v);
-        if (count == 0) {
+        if (v.getId() == 1) {
           vehicle = v;
         }
       }
-      count++;
     }
     person = VehicleDealership.createProfile("Manish", "Gajare", LocalDate.parse("05/15/1991", formatter), 85000, 'm',
       "114 Longwood Avenue", "5", "Brookline", "MA", "USA", 02446,
@@ -107,15 +105,13 @@ public class Config {
     invoiceCatalog.addInvoice(order);
 
     vehicleList = new HashSet<Vehicle>();
-    count = 0;
     for (Vehicle v : vehicleCatalog.getVehicleList()) {
-      if (count == 0 || count == 1 || count == 17 || count == 15) {
+      if (v.getId() == 1 || v.getId() == 2 || v.getId() == 17 || v.getId() == 15) {
         vehicleList.add(v);
-        if (count == 0) {
+        if (v.getId() == 1) {
           vehicle = v;
         }
       }
-      count++;
     }
     person = VehicleDealership.createProfile("Yash", "Kochar", LocalDate.parse("05/15/1989", formatter), 80000, 'm',
       "114 Longwood Avenue", "5", "Brookline", "MA", "USA", 02446,
@@ -130,15 +126,13 @@ public class Config {
     invoiceCatalog.addInvoice(order);
 
     vehicleList = new HashSet<Vehicle>();
-    count = 0;
     for (Vehicle v : vehicleCatalog.getVehicleList()) {
-      if (count == 7 || count == 9 || count == 8 || count == 11) {
+      if (v.getId() == 7 || v.getId() == 9 || v.getId() == 8 || v.getId() == 2) {
         vehicleList.add(v);
-        if (count == 7) {
+        if (v.getId() == 7) {
           vehicle = v;
         }
       }
-      count++;
     }
     person = VehicleDealership.createProfile("Ronak", "Massand", LocalDate.parse("05/15/1992", formatter), 90000, 'm',
       "114 Longwood Avenue", "5", "Brookline", "MA", "USA", 02446,
@@ -153,15 +147,13 @@ public class Config {
     invoiceCatalog.addInvoice(order);
 
     vehicleList = new HashSet<Vehicle>();
-    count = 0;
     for (Vehicle v : vehicleCatalog.getVehicleList()) {
-      if (count == 13 || count == 23 || count == 19 || count == 30) {
+      if (v.getId() == 13 || v.getId() == 23 || v.getId() == 19 || v.getId() == 30) {
         vehicleList.add(v);
-        if (count == 13) {
+        if (v.getId() == 13) {
           vehicle = v;
         }
       }
-      count++;
     }
     person = VehicleDealership.createProfile("Prashant", "Iyer", LocalDate.parse("05/15/1991", formatter), 85000, 'm',
       "114 Longwood Avenue", "5", "Brookline", "MA", "USA", 02446,
