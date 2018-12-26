@@ -32,8 +32,8 @@ We are setting up constants for total inventory spaces available with dealership
 Age, Gender and Income of potential customer is taken into account when giving recommendation
 
 We check if person in PersonDirectory matches the profile of potential customer such that
-- Age: Person's age lies in the range of =-3 of potential customer's age
-- Income: Person's income lies in the range of =-15000 of potential customer's age
+- Age: Person's age lies in the range of +/-3 of potential customer's age
+- Income: Person's income lies in the range of +/-15000 of potential customer's age
 - Gender: Person's gender is same as potential customer's gender
 
 If all criterias match, then we go through the interest of person in vehicles and previous purchases through OrderCatalog. We assign 10 points to the interests and 20 points to the purchases/orders and keep on adding them for the occurance of same vehicle interest/purchase which we come accross.
